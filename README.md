@@ -25,4 +25,21 @@
   <li>Open the index.html page or use the VS Code: Live Server extension </li>
   <li>Be happy friend!</li>
     </ol>
-</h5>
+
+<h4>There is also an easier way to get started: </h4>
+<ol>
+<br/>
+<li>open git codespace</li>
+<p align="center">
+  <img width="390px" src="https://user-images.githubusercontent.com/81252209/215186861-90e99c61-c4b8-42f3-8daf-c3ce49c3c1da.png" />
+  <h6>Select "sturdy basson". Select "sturdy basson" . You will be redirected to the codespacing page</h6>
+</p>
+
+<li>Right-click on the "index.htlm" file and select the open with live server option </li>
+<p align="center">
+  <img width="390px" src="https://user-images.githubusercontent.com/81252209/215187473-c3e1170f-180f-4707-9085-037350be1bac.png" />
+  <h6>Now Start the game</h6>
+</p>
+
+
+    
