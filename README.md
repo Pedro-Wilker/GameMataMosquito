@@ -29,7 +29,7 @@
 <h4>There is also an easier way to get started: </h4>
 <ol>
 <br/>
-<li>open git codespace</li>
+<li>Open git codespace</li>
 <p align="center">
   <img width="390px" src="https://user-images.githubusercontent.com/81252209/215186861-90e99c61-c4b8-42f3-8daf-c3ce49c3c1da.png" />
   <h6>Select "sturdy basson". Select "sturdy basson" . You will be redirected to the codespacing page</h6>
@@ -41,6 +41,29 @@
   <img width="390px" src="https://user-images.githubusercontent.com/81252209/215187473-c3e1170f-180f-4707-9085-037350be1bac.png" />
   <h6>Now Start the game</h6>
 </p>
+
+
+<br/>
+
+
+## What was used in the project
+
+<h4>Language </h4>
+<ul> 
+ <li>JavaScript</li>
+</ul>
+
+<h4>Library </h4>
+<ul> 
+ <li>BootStrap</li>
+</ul>
+
+<h4>More </h4>
+<ul> 
+ <li>HTML</li>
+ <li>CSS</li>
+</ul>
+
 
 
     
