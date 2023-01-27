@@ -4,6 +4,15 @@ function positionRandom() {
 
     if(document.getElementById('fly')){
         document.getElementById('fly').remove();
+
+        
+        if(lifes > 3) {
+            window.location.href = './endGame.html'
+        } else {
+            document.getElementById('l' + lifes).src="../images/coracao_vazio.png"
+            lifes++;
+        }
+        
     }
 
     var posicaoX = Math.floor(Math.random() * largura) - 90;
@@ -17,7 +26,7 @@ function positionRandom() {
     /* Create element html */
 
     var fly1 = document.createElement('img');
-    fly1.src = './images/fly.png';
+    fly1.src = '../images/fly.png';
     fly1.className = sizeRandom() + " " +sideRandom();
     fly1.style.left = posicaoX + 'px';
     fly1.style.top = posicaoY + 'px';
