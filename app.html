@@ -4,14 +4,28 @@
 	<title></title>
 
 	<script src="./js/window.js"></script>
-	<script src="./js/app.js"></script>
+	<script src="./js/position.js"></script>
+	<script src="./js/lifes.js"></script>
 	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="./css/menu.css" />
 </head>
 <body onresize="ajustaTamanhoPalcoJogo()">
-	<img class="fly" src="./images/fly.png" />
+
+	<div class="menu">
+		<div class="life">
+			<img src="./images/coracao_vazio.png" />
+			<img src="./images/coracao_cheio.png" />
+			<img src="./images/coracao_cheio.png" />
+		</div>
+
+		<div class="time">Time left: ?</div>
+	</div>
 
 	<script>
-		posicaoRandomica();
+		setInterval(function(){
+			positionRandom();
+		}, 1000);
+
 	</script>
 </body>
 </html>

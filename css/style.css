@@ -1,4 +1,28 @@
-.fly{
+body{
+    background-image: url(/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fly1{
     height: 50px;
     width: 50px;
+}
+
+.fly2{
+    height: 70px;
+    width: 70px;
+}
+
+.fly3{
+    height: 90px;
+    width: 90px;
+}
+
+.sideA{
+    transform: scaleX(1);
+}
+
+.sideB{
+    transform: scaleX(-1);
 }
