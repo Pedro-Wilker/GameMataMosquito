@@ -36,6 +36,7 @@
 </p>
 
 <li>Right-click on the "index.htlm" file and select the open with live server option </li>
+<br/>
 <p align="center">
   <img width="390px" src="https://user-images.githubusercontent.com/81252209/215187473-c3e1170f-180f-4707-9085-037350be1bac.png" />
   <h6>Now Start the game</h6>
