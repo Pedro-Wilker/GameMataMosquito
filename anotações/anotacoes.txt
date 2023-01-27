@@ -1,0 +1,4 @@
+O comando window você tem acesso a propriedades e metodos do browser, isso inclui tanto a altura quando a largura 
+	"altura = window.innerHeight
+	 largura = window.innerWidth"
+        => Desta forma recuperamos a altura e a largura da pagina. 
