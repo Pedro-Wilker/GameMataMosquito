@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mata Mosquito</title>
+	<link rel="shortcut icon" href="../images/fly.png" type="image/x-icon">
+
+	<meta charset="UTF-8" />
+	<script src="../js/window.js"></script>
+	<script src="../js/position.js"></script>
+	<script src="../js/time.js"></script>
+	<link rel="stylesheet" href="../css/style.css" />
+	<link rel="stylesheet" href="../css/menu.css" />
+</head>
+<body onresize="ajustaTamanhoPalcoJogo()">
+
+	<div class="menu">
+		<div class="life">
+			<img id="l1" src="../images/coracao_cheio.png" />
+			<img id="l2" src="../images/coracao_cheio.png" />
+			<img id="l3" src="../images/coracao_cheio.png" />
+		</div>
+
+		<div class="time">Time left: <span id="cronobreak"></span></div>
+	</div>
+
+	<script>
+		document.getElementById("cronobreak").innerHTML = times;
+
+		var createFly = setInterval(function(){
+			positionRandom();
+		}, createFlyTime);
+
+	</script>
+</body>
+</html>
